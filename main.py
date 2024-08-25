@@ -5,7 +5,6 @@ def main(page:Page):
     page.window.height = 740
     page.theme_mode = ThemeMode.DARK
     page.scroll = 'auto'
-    page.window.left = 960
     page.add(
         AppBar(
             bgcolor= colors.BLACK87,
